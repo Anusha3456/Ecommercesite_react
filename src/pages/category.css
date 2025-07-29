@@ -1,0 +1,35 @@
+.categories{
+    /* border: 2px solid red; */
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    width:80%;
+    margin: 10px auto;
+}
+.categories img{
+    height: 200px;
+    width:200px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 55px;
+    border-radius: 30px;
+    gap:20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.categories img:hover{
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.categories h5{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: darkblue;
+}
+
+h1{
+    margin: 20px;
+    color: darkred;
+}

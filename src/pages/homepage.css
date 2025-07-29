@@ -1,0 +1,46 @@
+
+.bannerimage img{
+    width: 95%;
+    height: 400px;
+    margin: 10px 30px;
+}
+.type{
+    /* border: 2px solid red; */
+    height:250px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-rows: auto;
+}
+
+.type img{
+    /* border: 2px solid black; */
+    height: 200px;
+    width:200px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 55px;
+    border-radius: 10px;
+    gap:20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.type img:hover{
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.type h5{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.sbanner img{
+    width: 95%;
+    height: 400px;
+    margin: 10px 30px;
+}
+
+
+ 
